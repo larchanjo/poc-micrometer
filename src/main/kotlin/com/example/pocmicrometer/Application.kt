@@ -1,12 +1,11 @@
 package com.example.pocmicrometer
 
-import io.micrometer.core.instrument.MeterRegistry
-import io.micrometer.core.instrument.simple.SimpleMeterRegistry
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import org.springframework.context.annotation.Bean
+import org.springframework.scheduling.annotation.EnableScheduling
 
 @SpringBootApplication
+@EnableScheduling
 class PocMicrometerApplication
 
 fun main(args: Array<String>) {
