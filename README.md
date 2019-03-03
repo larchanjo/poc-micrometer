@@ -1,6 +1,11 @@
 # Overview
 
-README
+This is a poc that use [micrometer] and [prometheus] to obtain the data and [grafana] to show visualize the data obtained
+
+[micrometer]: https://micrometer.io
+[prometheus]: https://prometheus.io/
+[grafana]: https://grafana.com/
+
 # Setup
 
 ## Application
